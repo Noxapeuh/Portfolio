@@ -1,5 +1,40 @@
 body {
-    background-color: darkgray;
+    background-color: rgb(47, 49, 59);
     color: darkslategray;
     font-family: Georgia, serif;
-  }
+}
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+  
+.header h1{
+    color:white;
+    font-size: 25px;
+}
+
+.header{
+    display: flex;
+    align-items: center;  /* centre verticalement */
+    padding-left:1vw;
+    background-color:#414141;
+    overflow: hidden;
+    width:100vw;
+    height:5vh;
+}
+
+.header i{
+    padding-right:1vw;
+}
+
+.home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh
+}
+
+.home h1{
+    color:white;
+    font-size: 50px;
+}
